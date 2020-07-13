@@ -1,0 +1,15 @@
+Assignment-4 (Boolean Truthy)
+
+💡Objective
+To improve your boolean logic algorithm and truth value skills.
+After finishing the code challenge question correctly, then submit your screenshot (upload as an image file) which shows you did correctly.
+
+Ödev-4 (Boolean Truthy)
+
+💡Objective:
+Senin geliştirmek için boole mantık algoritması  ve doğruluk değeri becerileri.
+Kod sorma sorusunu doğru bir şekilde bitirdikten sonra , doğru yaptığınızı gösteren ekran görüntünüzü  ( resim dosyası olarak yükleyin) gönderin  .
+
+
+
+print(not 0 and "write me")

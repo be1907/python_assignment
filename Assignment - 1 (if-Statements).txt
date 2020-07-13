@@ -1,0 +1,24 @@
+Assignment - 1 (if-Statements)
+💡Objectives:
+To improve your conditional algorithm and string operations skills.
+Write your Python codes on any IDE, push it up to your GitHub repository and submit your GitHub Page link address in addition to your code as a plain text.
+
+Task : Let's say you left a message in the past that prints a password you need. To see the password you wrote, you need to enter your name and the program should recognize you.
+Write a program that 
+
+Takes the first name from the user and compares it to yours,
+Then if the name the user entered is the same as yours, print out such as : "Hello, Joseph! The password is : W@12",
+If the name the user entered is not the same as yours, print out such as : "Hello, Amina! See you later."
+
+Ödev - 1 (if-İfadeleri)
+💡Objectives:
+Koşullu algoritma ve dizi işlemleri becerilerinizi geliştirmek için.
+Python kodlarınızı herhangi bir IDE'ye yazın, GitHub  deponuza itin  ve  kodunuza ek olarak GitHub Sayfası  bağlantı adresinizi düz metin olarak gönderin  .
+
+Görev: Diyelim ki geçmişte ihtiyacınız olan şifreyi yazan bir mesaj bıraktınız. Yazdığın şifreyi görmek için, sizin girmenize gerek isim ve program sizi tanıması gerekir.
+Aşağıdaki gibi bir program yazın: 
+
+Kullanıcıdan ilk adı alır ve sizinkilerle karşılaştırır,
+Ardından, kullanıcının girdiği ad sizinkiyle aynıysa, şöyle yazdırın: "Merhaba Joseph ! Parola: W @ 12",
+Kullanıcının girdiği ad sizinkiyle aynı değilse, yazdırın: "Merhaba Amina ! Sonra görüşürüz."
+

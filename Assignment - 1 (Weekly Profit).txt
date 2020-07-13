@@ -1,0 +1,28 @@
+Assignment-1 (Weekly Profit)
+
+💡Objective:
+To improve your arithmetic algorithm and problem solving skills.
+Write a Python code on your Playground and submit your code (answer) as a plain text.
+Problem : If you had deposited a coin on the cryptocurrency exchange that brought 7% fixed profit daily for a week, how much would your $ 1000 reach at the end of the 7th day?
+
+Ödev-1 (Haftalık Kâr)
+
+💡Objective:
+Senin geliştirmek için aritmetik algoritma ve problem çözme becerilerini.
+Oyun Alanınıza bir Python kodu yazın ve kodunuzu ( yanıtınızı ) düz metin olarak gönderin .
+Sorun : Kripto para borsasına bir hafta boyunca günlük% 7 sabit kâr getiren bir para yatırsaydınız, 7. günün sonunda 1000 dolarınız ne kadar ulaşırdı?
+
+iriş
+anapara = a = 1000
+a = ((a * 7) / 100) + a
+b = ((a * 7) / 100) + a
+c = ((b * 7) / 100) + b
+d = ((c * 7) / 100) + c
+e = ((d * 7) / 100) + d
+f = ((e * 7) / 100) + e
+g = ((f * 7) / 100) + f
+baskı (g, '$')
+
+çıktı
+
+1605,78147647843 $

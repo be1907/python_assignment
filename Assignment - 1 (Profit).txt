@@ -1,0 +1,73 @@
+Assignment - 1 (Profit)
+
+💡Objective:
+To improve your collection type knowledge, using new built-in function comprehension, string formatting and problem solving skills.
+After finishing the tasks correctly, then submit your answers (codes) as a plain text which shows you did correctly. Leave two empty lines between your answers.
+Task - 1 :
+You work for a manufacturer as a programmer and have been asked to calculate the total profit made on the sales of a product. You are given a dictionary (sales) containing the cost price per unit (in dollars), sell price per unit (in dollars), and the beginning inventory. Write a program to return the total profit made, rounded to the nearest dollar. Assume all of the inventory has been sold. The name and the keys of the dictionary are constant, so use them as they are.
+The example of the values (sell-cost value, inventory) and total profit :
+
+sales = {
+  "cost_value": 31.87,
+  "sell_value": 45.00,
+  "inventory": 1000
+}  
+
+# the profit will be : 13130
+Task - 2 :
+Your boss wants you to prepare the payrolls of the workers in your department. You have to convert the amount of dollars into payroll format. In order to help move things along, you have volunteered to write a code that will take a float and return the amount formatting in dollars and cents. 
+
+
+Examples
+Given Float Type amount	Desired Output
+3	$3.00
+29.99	$29.99
+4.1	$4.10The output should be float type as well and two digits after the period.
+
+
+Ödev - 1 (Kâr)
+
+💡Objective:
+Senin geliştirmek için toplama türü , bilgi kullanılarak yeni yerleşik fonksiyon anlama, dize biçimlendirme  ve problem çözme becerilerini.
+Görevleri doğru bir şekilde bitirdikten sonra, cevaplarınızı (kodlarınızı) doğru yaptığınızı gösteren düz bir metin olarak gönderin. Yanıtlarınız arasında iki boş satır bırakın.
+Görev - 1:
+Bir üretici için programcı olarak çalışıyorsunuz ve bir ürünün satışından elde edilen toplam kârı hesaplamanız isteniyor . Birim başına maliyet fiyatını (dolar cinsinden), birim başına satış fiyatını (dolar cinsinden) ve başlangıç envanterinisales içeren bir sözlük ( ) verilir . Dönmek için bir program yazınız toplam kârı  yapılmış, yuvarlak  yakın dolar. Tüm envanterin satıldığını varsayın . Adı ve anahtarlar sözlüğün oldukları gibi bu yüzden onları kullanmak, sabittir.
+Değerler ( satış - maliyet değeri,  envanter ) ve toplam kâr örneği :
+
+sales = { 
+  "cost_value": 31.87, 
+  "sell_value": 45.00, 
+  "envanter": 1000 
+}  
+
+# kâr olacak: 13130
+Görev - 2:
+Patronunuz bölümünüzdeki işçilerin bordrolarını hazırlamanızı istiyor . Dolar miktarını bordro formatına dönüştürmeniz gerekiyor. Bir şeyleri ilerletmeye yardımcı olmak için, bir kayan nokta alacak ve dolar ve sent cinsinden miktar biçimlendirmesini döndürecek bir kod yazmak için gönüllü oldunuz. 
+
+
+Örnekler
+Verilen Şamandıra Tipi amount	Istenilen çıktı
+3	$ 3.00
+29.99	$ 29.99
+4.1	$ 4.10Çıktı şamandıra tipi ve noktadan sonra iki basamaklı olmalıdır.
+
+
+satış = {
+  "maliyet_değeri": 31.87,
+  "satış_değeri": 45.00,
+  "envanter": 1000
+}  
+maliyet_değeri = satış ["maliyet_değeri"]
+sell_value = satış ["sell_value"]
+envanter = satış ["envanter"]
+Toplam_ harcama = (maliyet_değer * envanter)
+Toplam gelir = (satış_değeri * envanter) 
+Total_profit = (Toplam_gelir - Toplam_ harcama)
+print ("Toplam kârınız {} $.". biçimidir (Total_profit))
+Görev 2:
+bordro_a = şamandıra (3)
+bordro_b = şamandıra (29.99)
+bordro_c = şamandıra (4.1)
+yazdırmak ( "$ {:. 2f}". formatını (şamandıra (payroll_a)))
+yazdırmak ( "$ {:. 2f}". formatını (şamandıra (payroll_b)))
+yazdırmak ( "$ {:. 2f}". formatını (şamandıra (payroll_c)))

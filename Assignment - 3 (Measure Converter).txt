@@ -1,0 +1,37 @@
+Assignment-3 (Measure Converter)
+
+💡Objective
+To improve your arithmetic algorithm and knowledge of several functions skills.
+Write two Python codes on your PlaygroundIDE and submit your codes (answer) as a plain text. When you are submitting your responses, leave two blank lines between two code blocks (answers) that you will submit.
+Task-1
+
+Write a short Python program that asks the user to enter Celsius temperature (it can be a decimal number), converts the entered temperature into Fahrenheit degree and prints the result.
+
+Task-2
+Write a short Python program that asks the user to enter a distance (it can be a decimal number) in kilometers, converts the entered distance into miles and prints the result.
+
+
+Ödev-3 (Ölçü Dönüştürücü)
+
+💡Objective:
+Aritmetik algoritmanızı geliştirmek  ve çeşitli işlevler hakkında  bilgi sahibi olmak.
+Playground / IDE'nize iki Python kodu yazın ve kodlarınızı ( yanıtınızı ) düz metin olarak gönderin . Yanıtlarınızı gönderirken, göndereceğiniz iki kod bloğu (cevaplar) arasında iki boş satır bırakın .
+Görev-1 :
+
+Sorar kısa Python program yazın kullanıcıyı girmek için Celsius sıcaklık, girilen sıcaklık dönüştüren (bir ondalık sayı olabilir) Fahrenheit derecesi ve sonucu yazdırır.
+
+Görev-2 : Kullanıcıdan kilometre olarak mesafe girmesini (ondalık sayı olabilir) , girilen mesafeyi mil olarak dönüştürmesini ve sonucu yazdırmasını
+isteyen kısa bir Python programı yazın .
+
+
+
+kilometre = float(input('kilometre değeri :  '))
+miles = (kilometre * 0.6213)
+output = f'{kilometre} Km  : {miles} Mil '
+print(output)
+
+
+celsius = float(input('Celsius ısı değeri :  '))
+fahreinheit = (celsius * 1.8) + 32
+output = f'{celsius} °C  : {fahreinheit} °F '
+print(output)

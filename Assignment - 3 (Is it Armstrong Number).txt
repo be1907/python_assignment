@@ -1,0 +1,80 @@
+Assignment - 3 (Is it Armstrong Number?)
+💡Objective:
+To improve your control flow statement and arithmetic operator algorithm skills.
+Write your Python codes on any IDE, push it up to your GitHub repository and submit your GitHub Page link address in addition to your code as a plain text.
+ 
+Task:
+
+Find out if a given number is an "Armstrong Number".
+
+An n-digit number that is the sum of the nth powers of its digits is called an n-Armstrong number. Examples :
+371 = 33 + 73 + 13;
+9474 = 94 + 44 + 74 + 44;
+93084 = 95 + 35 + 05 + 85 + 45.
+
+Write a Python program that;
+takes a positive integer number from the user,
+checks the entered number if it is Armstrong,
+consider the negative, float and any entries other than numeric values then display a warning message to the user.
+
+Examples
+Sample inputs	Outputs
+407	407 is an Armstrong number
+5	5 is an Armstrong number
+ -153	 It is an invalid entry. Don't use non-numeric, float, or negative values!
+ 153.87 or 153,87	 It is an invalid entry. Don't use non-numeric, float, or negative values!
+ one	 It is an invalid entry. Don't use non-numeric, float, or negative values!
+ 121	 121 is not an Armstrong number
+
+Note that; this question is famous on the web, so that do it yourself to get more benefits from it. By the way, do not use try - except block.
+
+
+
+Ödev - 3 (Armstrong Numarası mı?)
+💡Objective:
+Senin geliştirmek için kontrol akış tablosu ve aritmetik operatör algoritması  becerileri.
+Python kodlarınızı herhangi bir IDE'ye yazın, GitHub  deponuza itin  ve  kodunuza ek olarak GitHub Sayfası  bağlantı adresinizi düz metin olarak gönderin  .
+ 
+Görev:
+
+Belirli bir sayının " Armstrong Numarası " olup olmadığını öğrenin .
+
+Bir n toplamı olan basamaklı sayı n de basamak güçleri inci bir denir , n-Armstrong sayısı. Örnekler:
+371 = 3 +  7 3 + 1 3 ;
+9474 = 9 4 + 4 4 + 7 4 + 4 ;
+93084 = 9 5 + 3 5 + 0 5 + 8 5 + 4 5 .
+
+Bir Python programı yazın;
+kullanıcıdan pozitif bir tam sayı alır,
+Armstrong ise girilen numarayı kontrol eder,
+negatif, kayan nokta ve sayısal değerler dışındaki tüm girdileri dikkate alın, ardından kullanıcıya bir uyarı mesajı görüntüleyin.
+
+Örnekler
+Örnek girişler	çıktılar
+407	407 bir Armstrong numarasıdır
+5	5 bir Armstrong numarasıdır
+ -153	 Geçersiz bir giriş. Sayısal olmayan, kayan nokta veya negatif değerler kullanmayın!
+ 153.87 veya 153.87	 Geçersiz bir giriş. Sayısal olmayan, kayan nokta veya negatif değerler kullanmayın!
+ bir	 Geçersiz bir giriş. Sayısal olmayan, kayan nokta veya negatif değerler kullanmayın!
+ 121	 121 bir Armstrong numarası değil
+
+Unutmayın ; Bu soru web'de ünlüdür, bu yüzden daha fazla fayda elde etmek için kendiniz yapın. Bu arada, try - block hariç kullanmayın .
+
+
+while True:
+    number = input('enter a positive number : ')
+    digits = len(number)
+    summ =0
+    if not number.isdigit() :
+        print(number," It is an invalid entry. Don't use non-numeric, float, or negative values!")
+    elif int(number) >= 0:
+        for i in range(digits):
+            summ += int(number[i]) ** digits
+        if summ == int(number):
+            print(number, 'is an Armstrong number.')
+            break
+        else:
+            print(number, 'is not an Armstrong number')
+            break
+
+# https://github.com/be1907/python_assignment.git

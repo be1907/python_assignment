@@ -1,0 +1,68 @@
+Assignment - 2 (Covid-19)
+
+💡Objective:
+To improve your boolean logic and setting condition algorithm skills and to raise your awareness of coronavirus.
+Write your Python codes on any IDE, push it up to your GitHub repository and submit your GitHub Page link address in addition to your code as a plain text.
+
+Problem :
+
+Task : Estimating the risk of death from coronavirus. Write a program that;
+
+Takes "Yes" or "No" from the user as an answer to the following questions :
+
+Are you a cigarette addict older than 75 years old? Variable → age
+
+Do you have a severe chronic disease? Variable → chronic
+
+Is your immune system too weak? Variable → immune
+
+Set a logical algorithm using boolean logic operators (and/or) and use if-statements with the given variables in order to print out us a message : "You are in risky group"(if True ) or "You are not in risky group" (if False).
+age =  # can be assigned only True/False
+chronic =  # can be assigned only True/False
+immune =  # can be assigned only True/False
+risk = ?
+
+
+Ödev - 2 (Covid-19)
+
+💡Objective:
+Senin geliştirmek için boole mantığı ve ayar koşulu algoritması beceri ve yükseltmek farkındalık arasında koronavirüsüne .
+Python kodlarınızı herhangi bir IDE'ye yazın, GitHub  deponuza itin  ve  kodunuza ek olarak GitHub Sayfası  bağlantı adresinizi düz metin olarak gönderin  .
+
+Sorun :
+
+Görev: Koronavirüsten ölüm riskini tahmin etmek . Bir program yazın;
+
+Aşağıdaki soruların cevabını kullanıcıdan "Evet" veya "Hayır" olarak alır:
+
+75 yaşından büyük bir sigara bağımlısı mısınız ? Değişken →age
+
+Eğer bir var mı ağır kronik hastalığı? Değişken →chronic
+
+Sizin mi bağışıklık sistemi çok zayıf ? Değişken →immune
+
+Boole mantık işleçlerini ( and/ or) kullanarak mantıksal bir algoritma ayarlayın ve bize bir ileti yazdırmak için if değişkenlerini verilen değişkenlerle kullanın: " Riskli gruptasınız " (if  True ) veya " Riskli grupta değilsiniz " (eğer  False).
+age = # yalnızca Doğru / Yanlış kronik atanabilir = # yalnızca Doğru / Yanlış bağışıklık atanabilir = # Yalnızca Doğru / Yanlış atanabilir  
+
+
+risk =?
+
+
+
+age = input("Are you a cigarette addict older than 75 years old? : (Yes/No").title().strip() == 'Yes'
+chronic = input("Do you have a severe chronic disease? : (Yes/No").title().strip() == 'Yes'
+immune = input("Is your immune system too weak? : (Yes/No").title().strip() == 'Yes'
+
+# print(age, chronic, immune)
+
+risk = age or chronic or immune
+
+# print(risk)
+
+if risk:
+    print("You are in risky group")
+else:
+     print("You are not in risky group")
+
+
+# https://github.com/be1907/python_assignment.git

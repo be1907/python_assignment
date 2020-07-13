@@ -1,0 +1,32 @@
+Assignment - 2 (Comfortable Words)
+
+💡Objective:
+To improve your knowledge of collection types (set), boolean logic and raise your awareness of "ten fingers keyboard".
+After finishing the task correctly, then submit your answer (code) as a plain text which shows you did correctly.
+Task : Find out if the given word is "comfortable words" in relation to the ten-finger keyboard use.
+
+A comfortable word is a word which you can type always alternating the hand you type with (assuming you type using a Q-keyboard and use of the ten-fingers standard).
+The word will always be a string consisting of only letters from a to z.
+Write a program to returns True if it's a comfortable word or False otherwise.
+Examples
+Given  word	Desired Output (explanation)
+tester	False (uses only left-hand fingers)*
+polly	False (uses only right-hand fingers)*
+clarusway	True (uses both hand fingers)*Note : Do a quick research on ten-fingers keyboard usage. * the explanation doesn't need to be in the output.
+
+
+Ödev - 2 (Rahat Kelimeler)
+
+💡Objective:
+Senin geliştirmek için bilgi  ve  toplama türleri ( set), boolean mantık ve sizin bilinçlendirmek "on parmak klavye" .
+Görevi doğru bir şekilde tamamladıktan sonra, yanıtınızı (kodunuzu) doğru yaptığınızı gösteren düz bir metin olarak gönderin.
+Görev:  Verilen on parmak klavyesi kullanımı ile ilgili olarak word" rahat kelimeler " olup olmadığını öğrenin .
+
+Bir rahat bir kelime size (on-parmak standart bir Q-klavye ve kullanım kullanarak tip varsayılarak) ile tip el değişen zaman tip bir kelimedir.
+Sözcük her zaman yalnızca - arasındaki harflerden oluşan bir dize a olacaktır z.
+TrueRahat bir kelime ya da Falsebaşka bir şeyse geri dönmek için bir program yazın .
+Örnekler
+verilmiş  word	İstenen Çıktı (açıklama)
+test cihazı	False (yalnızca sol parmakları kullanır) *
+papağan	False (yalnızca sağ parmakları kullanır) *
+clarusway	True (her iki el parmakını kullanır) *Not : On parmaklı klavye kullanımı hakkında hızlı bir araştırma yapın. * açıklamanın çıktıda olması gerekmez.

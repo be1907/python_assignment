@@ -1,0 +1,46 @@
+Assignment-2 (Covid-19 Possibility)
+
+💡Objective:
+To improve your boolean logical algorithm skills and to raise your awareness of coronavirus.
+Write a Python code on your Playground/IDE and submit your code (answer) as a plain text.
+Problem :
+
+Task : Estimating the risk of death from coronavirus.
+
+Consider the following questions in terms of True/False regarding someone else.
+
+Are you a cigarette addict older than 75 years old? Variable → age
+
+Do you have a severe chronic disease? Variable → chronic
+
+Is your immune system too weak? Variable → immune
+
+Set a logical algorithm using boolean logic operators (and/or) and the given variables in order to give us True (there is a risk of death) or False (there is not a risk of death) as a result.
+age =  # can be assigned only True/False
+chronic =  # can be assigned only True/False
+immune =  # can be assigned only True/False
+risk = ?
+
+
+Ödev-2 (Covid-19 Olasılığı)
+
+💡Objective:
+Senin geliştirmek için boole mantıksal algoritma beceri ve yükseltmek farkındalık arasında koronavirüsüne .
+Playground / IDE'nize bir Python kodu yazın ve kodunuzu ( yanıtınızı ) düz metin olarak gönderin .
+Sorun :
+
+Görev: Koronavirüsten ölüm riskini tahmin etmek .
+
+Başkasıyla ilgili True/ Falsebaşka biriyle ilgili aşağıdaki soruları göz önünde bulundurun .
+
+75 yaşından büyük bir sigara bağımlısı mısınız ? Değişken →age
+
+Eğer bir var mı ağır kronik hastalığı? Değişken →chronic
+
+Sizin mi bağışıklık sistemi çok zayıf ? Değişken →immune
+
+Sonuç olarak bize (ölüm riski vardır ) veya ( ölüm riski yoktur) vermek için mantıksal mantık operatörlerini ( and/ or) ve verilen değişkenleri kullanarak bir mantıksal algoritma ayarlayın . TrueFalse
+age = # yalnızca Doğru / Yanlış kronik atanabilir = # yalnızca Doğru / Yanlış bağışıklık atanabilir = # Yalnızca Doğru / Yanlış atanabilir  
+
+
+risk =?

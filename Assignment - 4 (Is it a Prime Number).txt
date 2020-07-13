@@ -1,0 +1,43 @@
+Assignment - 4 (Is it a Prime Number?)
+
+💡Objective:
+To improve your control flow statement skills and to raise your awareness of some algebraic knowledge.
+Write your Python codes on any IDLE, push it up to your GitHub repository and submit your GitHub Page link address in addition to your code as a plain text.
+
+Task : Write a program that takes a number from the user and prints the result to check if it is a prime number.
+
+The examples of the desired output are as follows :
+
+input →  19 ⇉ output : 19 is a prime number
+input →  10 ⇉ output : 10 is not a prime number
+Note that ⚠: This question is famous on the web, so to get more benefit from this assignment, try to complete this task on your own. 
+
+Ödev - 4 (Bir Asal Sayı mı?)
+
+💡Objective:
+Kontrol akım tablosu artırmak için beceri ve yükseltmek farkındalık ait bazı cebirsel bilgisine .
+Python kodlarınızı herhangi bir IDLE'ye yazın, GitHub  deponuza doğru itin  ve  kodunuza ek olarak GitHub Sayfası  bağlantı adresinizi düz metin olarak gönderin  .
+
+Görev: Kullanıcıdan bir sayı alan ve asal sayı olup olmadığını kontrol etmek için sonucu basan bir program yazın .
+
+İstenen çıktının örnekleri aşağıdaki gibidir:
+
+giriş →   19 ⇉ çıkış: 19 bir asal sayıdır
+ giriş →   10 ⇉ çıkış: 10 bir asal sayı değildir
+ ⚠: Bu soru web'de ünlüdür, bu nedenle bu ödevden daha fazla yararlanmak için bu görevi kendi başınıza tamamlamaya çalışın.
+
+
+
+n = int(input('enter a number : '))
+
+count = 0 
+
+for i in range(1, n+1):
+    if not (n % i): 
+        count += 1
+if (n == 0) or (n == 1) or (count >=3): 
+    print(n, 'is not a prime number.')
+else: 
+    print(n, 'is a prime number')
+
+# https://github.com/be1907/python_assignment.git

@@ -1,0 +1,38 @@
+Assignment - 5 (Fibonacci Numbers)
+
+💡Objective:
+To improve your control flow statement skills and to raise your awareness of some algebraic knowledge.
+Write a Python code on any IDE, push it up to your GitHub repository and submit GitHub page address link in addition to your code (answer) as a plain text.
+
+Task : Create a list consisting of Fibonacci numbers from 1 to 55 using control flow statements.
+
+The desired output is like :
+
+fibonacci →  [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+Ödev - 5 (Fibonacci Sayıları)
+
+💡Objective:
+Kontrol akım tablosu artırmak için beceri ve yükseltmek farkındalık ait bazı cebirsel bilgisine .
+Herhangi bir IDE'ye bir Python kodu yazın, GitHub deponuza doğru itin ve kodunuza ( cevabınıza ) ek olarak GitHub sayfa adresi bağlantısını düz metin olarak  gönderin .
+
+Görev: Kontrol akış deyimlerini kullanarak 1'den 55'e kadar Fibonacci sayılarından listoluşan bir sayı oluşturun .
+
+İstenen çıktı aşağıdaki gibidir:
+
+fibonacci →   [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+
+
+
+fibonacci = []
+
+for i in range(-2, 8) :
+    if i < 0 : fibonacci.append(1)
+    else : fibonacci.append(fibonacci[i] + fibonacci[i+1])
+print(fibonacci)
+
+# https://github.com/be1907/python_assignment.git
+Baskı (Fibonacci)
+
+# https://github.com/be1907/python_assignment.git
