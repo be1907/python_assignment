@@ -12,7 +12,8 @@ Senin geliştirmek için aritmetik algoritma ve problem çözme becerilerini.
 Oyun Alanınıza bir Python kodu yazın ve kodunuzu ( yanıtınızı ) düz metin olarak gönderin .
 Sorun : Kripto para borsasına bir hafta boyunca günlük% 7 sabit kâr getiren bir para yatırsaydınız, 7. günün sonunda 1000 dolarınız ne kadar ulaşırdı?
 
-iriş
+cevap
+
 anapara = a = 1000
 a = ((a * 7) / 100) + a
 b = ((a * 7) / 100) + a

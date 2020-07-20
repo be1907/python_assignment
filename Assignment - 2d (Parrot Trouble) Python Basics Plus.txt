@@ -1,0 +1,33 @@
+Assignment - 2 (Parrot Trouble)
+Complete the Code Challenge question. Good luck!
+
+💡 Objective :
+To improve your defining function and conditional skills.
+
+We have a loud talking parrot. We are in trouble if the parrot is talking and the hour is before 6 or after 21.
+Define a function taking two parameters (talking and hour) to return True if we are in trouble. The argument to  talking parameter can only be True or False whether it is talking or not. The argument to hour parameter should be the current hour time in the range of 0 to 23.
+
+istenen:
+For example:
+
+Test						Result
+print(parrot_trouble(True, 5))			True
+print(parrot_trouble(True, 8))			False
+print(parrot_trouble(False, 22))		False
+
+Ödev - 2 (Papağan Sorunu)
+Kod Sorma sorusunu tamamlayın. İyi şanslar!
+
+💡 Amaç:
+Tanımlama  işlevinizi ve koşullu becerilerinizi geliştirmek .
+
+Yüksek sesle konuşan bir papağan var. Papağan konuşuyorsa ve saat 6'dan önce veya 21'den sonra ise başımız dertte.
+Başımız beladaysa dönmek için iki parametre ( talkingve hour) alan bir fonksiyon tanımlayın True. Argüman   talking parametresi sadece olabilir Trueya Falseda konuşurken olup olmadığını. hourParametreye bağımsız değişken  , 0 ile 23 arasında geçerli saat zamanı olmalıdır.
+
+cevap :
+
+def parrot_trouble(talking, hour):
+  if talking == True and (hour < 6 or hour > 21):
+    return True
+  else : 
+    return False

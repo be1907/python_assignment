@@ -1,0 +1,29 @@
+Assignment - 1 (Doubler)
+Complete the Code Challenge question. Good luck!
+
+Given two integer values, return their sum. If the two values are the same, then return double their sum.
+
+istenen sonuc:
+For example:
+
+Test					Result
+print(sum_double(1, 2))			3
+print(sum_double(5, 7))			12
+print(sum_double(5, 5))			20
+
+Ödev - 1 (Katlama)
+Kod Sorma sorusunu tamamlayın. İyi şanslar!
+
+💡 Amaç:
+Tanımlayıcı işlev becerilerinizi geliştirmek için  .
+
+İki tamsayı değer verildiğinde toplamlarını döndürün. İki değer aynı ise, toplamlarını iki katına çıkarın.
+
+
+cevap
+
+def sum_double(x, y):
+  sum = x + y
+  if x == y:
+    sum = sum * 2
+  return sum

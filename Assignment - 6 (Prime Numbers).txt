@@ -1,0 +1,52 @@
+Assignment - 6 (Prime Numbers)
+
+💡Objective:
+To improve your control flow statement skills and to raise your awareness of some algebraic knowledge.
+Write a Python code on any IDE, push it up to your GitHub repository and submit the GitHub page address link in addition to your code (answer) as a plain text.
+Task : Print the prime numbers which are between 1 to entered limit number (n).
+
+You can use a nested for loop.
+Collect all these numbers into a list
+The desired output for n=100 :
+
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59,
+61, 67, 71, 73, 79, 83, 89, 97]
+Note that : This question is famous on the web, so to get more benefit from this assignment, try to complete this task on your own.
+
+Ödev - 6 (Asal Sayılar)
+
+💡Objective:
+Kontrol akım tablosu artırmak için beceri ve yükseltmek farkındalık ait bazı cebirsel bilgisine .
+Herhangi bir IDE'ye bir Python kodu yazın, GitHub veri havuzunuza itin   ve kodunuza ( cevabınıza ) ek olarak GitHub sayfa adresi bağlantısını düz metin olarak gönderin .
+Görev: 1 ile girilen sınır numarası ( ) arasındaki asal sayıları yazdırın n.
+
+Yuvalanmış bir fordöngü kullanabilirsiniz .
+Tüm bu numaraları bir list
+İstenilen çıktı n=100:
+
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59,
+61, 67, 71, 73, 79, 83, 89, 97]
+Not : Bu soru web'de ünlüdür, bu nedenle bu ödevden daha fazla yararlanmak için bu görevi kendi başınıza tamamlamaya çalışın.
+
+cevap 
+
+list_prime = []
+a = 1
+n = 100
+for i in range(a, n + 1):
+   if i > 1:
+       for ii in range(2, i):
+           if (i % ii) == 0:
+            break
+            print("Prime numbers between", a, "and", n, "are: ")
+       else:
+           list_prime.append(i)
+print(f"The prime number lists = {list_prime}")
+
+output
+The prime number lists = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
+# https://github.com/be1907/python_assignment.git
+
+
+

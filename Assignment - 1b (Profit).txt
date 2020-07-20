@@ -51,6 +51,7 @@ Verilen Şamandıra Tipi amount	Istenilen çıktı
 29.99	$ 29.99
 4.1	$ 4.10Çıktı şamandıra tipi ve noktadan sonra iki basamaklı olmalıdır.
 
+Görev 1:
 
 satış = {
   "maliyet_değeri": 31.87,
@@ -64,7 +65,9 @@ Toplam_ harcama = (maliyet_değer * envanter)
 Toplam gelir = (satış_değeri * envanter) 
 Total_profit = (Toplam_gelir - Toplam_ harcama)
 print ("Toplam kârınız {} $.". biçimidir (Total_profit))
+
 Görev 2:
+
 bordro_a = şamandıra (3)
 bordro_b = şamandıra (29.99)
 bordro_c = şamandıra (4.1)

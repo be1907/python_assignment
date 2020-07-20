@@ -1,0 +1,33 @@
+Assignment - 3 (Negative Meaning)
+Complete the Code Challenge question. Good luck!
+
+💡 Objective :
+To improve your defining function skills and string operations ability.
+
+Define a function to take a word and return negative meaning.
+Given a word, return a new word where "not " has been added to the front. However, if the word already begins with "not", return the string unchanged.
+
+For example:
+
+Test					Result
+print(not_string('sugar'))		not sugar
+print(not_string('x'))			not x
+print(not_string('not bad'))		not bad
+
+
+Ödev - 3 (Olumsuz Anlam)
+Kod Sorma sorusunu tamamlayın. İyi şanslar!
+
+💡 Amaç:
+Tanımlama  fonksiyonu becerilerinizi ve string operasyon yeteneğinizi geliştirmek.
+
+Bir kelime almak ve negatif anlam döndürmek için bir fonksiyon tanımlayın.
+Bir kelime verildiğinde, önüne " not " ifadesinin eklendiği yeni bir kelime döndür. Ancak, kelime zaten "not" ile başlıyorsa, dizeyi değişmeden döndürün.
+
+cevap :
+
+def not_string(word):
+  if not word[:3] == 'not':
+    return('not ' + word)
+  else:
+    return word
